@@ -14,7 +14,7 @@
         <header class="navbar navbar-fixed-top">
           <div class="navbar-inner">
             <div class="container">
-              <%= link_to "Merchant Finder", 'http://radiant-tundra-7002.herokuapp.com/', id: "logo" %>
+			  <a class="brand" href="/"> <img src="assets/logo_transparent.png"></a>	
               <nav>
                 <ul class="nav pull-left">
                     <li class="<%= 'active' if current_page?(about_path) %>"><%= link_to "About", about_path %></li>
@@ -42,6 +42,19 @@
 	</div>
 
 <!-- main stop -->
+
+	<hr />
+		<footer class"row">
+			<div class="footer">
+			  <p>
+				&copy; Marvin Jobs 2013
+				<a href="/about/">About</a>
+				<a href="/contact/">Contact</a>
+			  </p>
+			</div>
+		</footer>
+
+<!-- footer stop -->
 
     </body>
 </html>

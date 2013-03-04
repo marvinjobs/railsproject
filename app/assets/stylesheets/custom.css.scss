@@ -88,3 +88,33 @@ p {
   color: black;
   text-decoration: none;
 }
+
+/* footer */
+
+.footer {
+  position: relative;
+  text-align: center;
+  margin-top: 0px;
+  color: #666;
+  background: #ffffff;
+  padding: 0px 0 18px 0;
+}
+
+footer a {
+  color: #999;
+}
+
+footer a:hover {
+   color: #2c2c2c;
+   text-decoration: none;
+}
+
+/* logo */
+
+.brand
+{
+  background: url(images/logo.png) no-repeat left center;
+  height: 25px;
+  width: 160px;
+}
+
