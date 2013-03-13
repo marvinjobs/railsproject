@@ -5,6 +5,7 @@ Project::Application.routes.draw do
   root :to => 'static_pages#home'
   get "about" => "static_pages#about"
   get "contact" => "static_pages#contact"
+  get "imprint" => "static_pages#imprint"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
