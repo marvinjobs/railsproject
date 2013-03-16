@@ -1,14 +1,16 @@
+<!--This is the signed in section-->
+
 <% if user_signed_in? %>
 <h1>You're signed in!</h1>
 
+<!--This is the section when a user in not signed in-->
+
 <% else %>
 <div class="center hero-unit">
-    <h1>Welcome to One Month Rails</h1>
+    <h1>Welcome to Share Places</h1>
 
     <h2>
-      You've found the home page for the
-      <a href="http://omrails.com/">One Month Rails</a>
-      first application.
+      You've found the homepage for my first application
     </h2>
 
     <%= link_to "Sign up now!", new_user_registration_path, 
@@ -17,16 +19,16 @@
 
 <div class="row">
 	<div class="span4">
-		<h2>Heading</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel eros metus. Fusce fringilla, justo eget scelerisque rhoncus, est magna dignissim urna, vitae convallis nisi odio ac nulla.</p>
+		<h2>Collaborate</h2>
+		<p>With Share Places you can submit your favourite places in town and share them with your friends.</p>
 	  </div>
 	  <div class="span4">
-		<h2>Heading</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel eros metus. Fusce fringilla, justo eget scelerisque rhoncus, est magna dignissim urna, vitae convallis nisi odio ac nulla.</p>
+		<h2>Discover</h2>
+		<p>See what places your friends have submitted and discover new restaurants, bars, clubs, parks and more.</p>
 	  </div>
 	  <div class="span4">
-		<h2>Heading</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel eros metus. Fusce fringilla, justo eget scelerisque rhoncus, est magna dignissim urna, vitae convallis nisi odio ac nulla.</p>
+		<h2>Appreciate</h2>
+		<p>Checked out a new place and really loved it? Write a comment and show it some love so others know what's hot and what's not.</p>
 	  </div>
 
 <% end %>
