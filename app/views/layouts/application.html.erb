@@ -23,9 +23,9 @@
                 
                 <ul class="nav pull-right">
                  <li><%= link_to "Register", new_user_registration_path %></li>
-                 <% if user_signed_in? %>
+                    <% if user_signed_in? %>
                  <li><%= link_to "Sign Out", destroy_user_session_path, :method => :delete %></li>
-                 <% else %>
+                    <% else %>
                  <li><%= link_to "Sign In", new_user_session_path, :method => :get %></li>
                  <% end %>
                 </ul>
@@ -45,22 +45,23 @@
 
 <!-- main stop -->
 
+  <div class="container">
   <hr />
-  
     <div class="row">
-      <div class="span4">
+        <div class="span4">
           <a id="footerp" href="/about/">About</a>
           <a id="footerp" href="/contact/">Contact</a>
           <a id="footerp" href="/imprint/">Imprint</a>
-      </div>
-      <div class="span4 pagination-centered">
+        </div>
+        <div class="span4 pagination-centered">
           <a id="copyright">&copy; Marvin Jobs 2013</a>
-      </div>
-      <div class="span4" style="margin-top: -15px;">
+        </div>
+        <div class="span4" style="margin-top: -15px;">
           <a href="http://www.linkedin.com/in/marvinjobs/en" target="_blank"> <img id="socialicons" src="/assets/linkedin.png"></a>
           <a href="https://www.facebook.com/marvin.jobs" target="_blank"> <img id="socialicons" src="/assets/facebook.png"></a>
-      </div>
-    </div>
+        </div>
+     </div>
+   </div>
   </footer>
 
 <!-- footer stop -->

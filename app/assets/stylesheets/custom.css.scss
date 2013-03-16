@@ -48,7 +48,6 @@
 body {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 14px;
-  line-height: 0px;
   color: #333;
 }
 
@@ -87,7 +86,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 3em;
   letter-spacing: -2px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   text-align: center;
 }
 
@@ -109,7 +108,6 @@ p {
 
 .footer {
   position: relative;
-  text-align: left;
   margin-top: 0px;
   color: #666;
   background: #ffffff;
@@ -143,6 +141,10 @@ footer a:hover {
   text-decoration: none;
 }
 
+/* contact form */
 
+.input-mysize {
+  width: 95%;
+}
 
 
